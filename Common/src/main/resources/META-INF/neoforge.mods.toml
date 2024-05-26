@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="icepreventscropgrowth"
-version="3.2"
+version="3.3"
 displayName="Ice Prevents Crop Growth"
 displayURL="https://serilum.com/mod/ice-prevents-crop-growth"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Crops growing on tilled soil with an ice block underneath will ne
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jack, Jeremy Langford, Michael W. S., pepe1191, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.icepreventscropgrowth]]
     modId="collective"
     type="required"
-    versionRange="[7.54,)"
+    versionRange="[7.60,)"
     ordering="NONE"
     side="BOTH"
 
@@ -30,6 +30,13 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
     modId="minecraft"
     type="required"
     versionRange="[1.20.6]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.icepreventscropgrowth]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.78,)"
     ordering="NONE"
     side="BOTH"
 

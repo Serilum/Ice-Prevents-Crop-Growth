@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "icepreventscropgrowth",
-  "version": "3.2",
+  "version": "3.3",
 
   "name": "Ice Prevents Crop Growth",
   "description": "Crops growing on tilled soil with an ice block underneath will never grow to the next stage, for design purposes.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54"
+    "collective": ">=7.60"
   },
 
   "custom": {
@@ -46,10 +46,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
 	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Rare Students",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
