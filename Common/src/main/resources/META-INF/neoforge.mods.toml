@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Ice%20Prevents%20Crop%20Growth"
+logoFile="icon.png"
+
+[[mods]]
+modId="icepreventscropgrowth"
+version="3.4"
+displayName="Ice Prevents Crop Growth"
+displayURL="https://serilum.com/mod/ice-prevents-crop-growth"
+authors="Rick South"
+description='''Crops growing on tilled soil with an ice block underneath will never grow to the next stage, for design purposes.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, kate1073, Michael W. S., Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.icepreventscropgrowth]]
+    modId="collective"
+    type="required"
+    versionRange="[7.86,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.icepreventscropgrowth]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.2,1.21.3]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.icepreventscropgrowth]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.78,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "icepreventscropgrowth.mixins.json"
