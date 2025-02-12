@@ -6,12 +6,10 @@ import net.minecraft.world.level.Level;
 import net.minecraftforge.event.level.BlockEvent.CropGrowEvent;
 import net.minecraftforge.eventbus.api.Event.Result;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeCropEvent {
 	@SubscribeEvent
-	public void mobItemDrop(CropGrowEvent.Pre e) {
+	public static void mobItemDrop(CropGrowEvent.Pre e) {
 		Level level = WorldFunctions.getWorldIfInstanceOfAndNotRemote(e.getLevel());
 		if (level == null) {
 			return;
