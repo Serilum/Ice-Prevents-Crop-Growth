@@ -1,7 +1,7 @@
-package com.natamus.icepreventscropgrowth.neoforge.events;
+package com.serilum.icepreventscropgrowth.neoforge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.icepreventscropgrowth.events.CropEvent;
+import com.serilum.icepreventscropgrowth.events.CropEvent;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.level.block.CropGrowEvent;

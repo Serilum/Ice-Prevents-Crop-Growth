@@ -1,9 +1,9 @@
-package com.natamus.icepreventscropgrowth;
+package com.serilum.icepreventscropgrowth;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.icepreventscropgrowth.forge.events.ForgeCropEvent;
-import com.natamus.icepreventscropgrowth.util.Reference;
+import com.serilum.icepreventscropgrowth.forge.events.ForgeCropEvent;
+import com.serilum.icepreventscropgrowth.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeCropEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeCropEvent.class);
 	}
 
 	private static void setGlobalConstants() {

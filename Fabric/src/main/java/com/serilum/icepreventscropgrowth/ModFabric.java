@@ -1,10 +1,10 @@
-package com.natamus.icepreventscropgrowth;
+package com.serilum.icepreventscropgrowth;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveCropEvents;
-import com.natamus.icepreventscropgrowth.events.CropEvent;
-import com.natamus.icepreventscropgrowth.util.Reference;
+import com.serilum.icepreventscropgrowth.events.CropEvent;
+import com.serilum.icepreventscropgrowth.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
