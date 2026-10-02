@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
   "id": "icepreventscropgrowth",
-  "version": "3.5",
+  "version": "3.7",
 
   "name": "Ice Prevents Crop Growth",
   "description": "Crops growing on tilled soil with an ice block underneath will never grow to the next stage, for design purposes.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/ice-prevents-crop-growth",
     "sources": "https://github.com/Serilum/Ice-Prevents-Crop-Growth",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Ice%20Prevents%20Crop%20Growth"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.icepreventscropgrowth.ModFabric" ] },
+  "entrypoints": { "main": [ "com.serilum.icepreventscropgrowth.ModFabric" ] },
 
   "depends": {
     "fabricloader": ">=0.12.5",
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.91"
+    "collective": ">=8.40"
   },
 
   "custom": {
     "modmenu": {
       "links": {
-        "Donate <3" : "https://ricksouth.com/donate"
+        "Donate <3" : "https://serilum.com/donate"
       }
     }
   },
@@ -38,18 +38,15 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
-	  " Alister",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " David Sanchez",
-	  " drdog111",
-	  " Michael W. S.",
-	  " t128",
-	  " Tyler Behl",
-	  " XAgent"
+	  " Linda Jansen",
+	  " MWS",
+	  " Tyler Behl"
   ]
 }

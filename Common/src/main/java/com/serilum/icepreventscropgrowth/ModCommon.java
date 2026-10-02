@@ -1,4 +1,4 @@
-package com.natamus.icepreventscropgrowth;
+package com.serilum.icepreventscropgrowth;
 
 
 public class ModCommon {

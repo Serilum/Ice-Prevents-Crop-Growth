@@ -1,4 +1,4 @@
-package com.natamus.icepreventscropgrowth.events;
+package com.serilum.icepreventscropgrowth.events;
 
 import com.natamus.collective.functions.BlockFunctions;
 import net.minecraft.core.BlockPos;
