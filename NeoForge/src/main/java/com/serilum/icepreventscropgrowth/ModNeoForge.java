@@ -1,9 +1,9 @@
-package com.natamus.icepreventscropgrowth;
+package com.serilum.icepreventscropgrowth;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.icepreventscropgrowth.neoforge.events.NeoForgeCropEvent;
-import com.natamus.icepreventscropgrowth.util.Reference;
+import com.serilum.icepreventscropgrowth.neoforge.events.NeoForgeCropEvent;
+import com.serilum.icepreventscropgrowth.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
